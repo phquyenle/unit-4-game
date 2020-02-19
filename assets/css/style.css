@@ -1,0 +1,37 @@
+body {
+    background-image: url(../images/galaxy.jpg);
+ 
+    background-size:cover;
+    height:100vh;
+    display:flex;
+}
+.CCG {
+    font-family: 'Lacquer', sans-serif;
+    color: white;
+    font-size: 150%;
+    padding: 3%;
+    
+}
+.htp {
+    color: azure;
+    font-family:'Lacquer', sans-serif; ;
+    border: 1.5px solid gray;
+    padding: 4%;
+
+}
+
+.RNG {
+    font-family: 'Lacquer', sans-serif;
+    color: oldlace;
+    border: 2px solid burlywood;
+    padding: 3%;
+    font-size: 250%;
+}
+
+.Score {
+    font-family: 'Lacquer', sans-serif;
+    color:whitesmoke;
+    border: 2px solid burlywood;
+    padding 2%;
+    font-size: 160%;
+}
