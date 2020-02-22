@@ -47,7 +47,19 @@ $("#gem4").html("<img src=" + "assets/images/gem4.png" + " value=" + gemFour + "
     }
 
 }); 
-
+// reset when losses or wins
+ function reset () {
+    numbergenerator= Math.floor(Math.random()*102)+19;
+    $(".RNG").html(numbergenerator);
+    score = 0;
+    $(".actualscore").html(score);
+    gemOne=Math.floor(Math.random()*12)+1;
+    gemTwo=Math.floor(Math.random()*12)+1;
+    gemThree=Math.floor(Math.random()*12)+1;
+    gemFour=Math.floor(Math.random()*12)+1;
+    
+    
+ }
 
 
 
